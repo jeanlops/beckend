@@ -16,7 +16,7 @@ io.on("connection" , socket => {
     });
 });
 
-mongoose.connect("mongodb+srv://jeanlops:Dell7000i7*@cluster0-jxmrf.mongodb.net/test?retryWrites=true" , 
+mongoose.connect("mongodb+srv://jeanlops:Dell7000i7*@cluster0-jxmrf.mongodb.net/test?retryWrites=true", 
     {
         useNewUrlParser: true
     }
